@@ -1,0 +1,120 @@
+body {
+  background-color: #121212;
+  color: white;
+}
+.nav ul li a{
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-nav li:hover a{
+  background-color: #00ffff;
+  border-radius: 5px;
+}
+
+
+
+
+.hero-section {
+    padding: 40px 0;
+  }
+  .hero-title {
+    color: #00ffff;
+    font-weight: bold;
+  }
+  .social-icons a {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 20px;
+  }
+  .social-icons a i{
+    color: #00e6e6;
+  }
+  .btn-custom {
+    background-color: #00ffff;
+    color: #121212;
+    font-weight: bold;
+    border: none;
+  }
+  .btn-custom:hover {
+    background-color: #00e6e6;
+  }
+
+/* portfolio-section */
+
+  .portfolio-section {
+    padding: 40px 0;
+  }
+  .portfolio-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .project-card {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .project-title {
+    color: #00ffff;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  .tech-badge {
+    background-color: #282828;
+    color: #fff;
+    border: none;
+    margin: 5px;
+  }
+
+
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .tag {
+    background-color: #343a40;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
+  }
+  .education-title {
+    font-size: 1.8rem;
+    color: cyan;
+  }
+
+/* form section */
+
+  .form-container {
+    background-color: #2a2a2a;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 12px 0px rgba(97, 88, 88, 0.75)
+  }
+  .form-control {
+    width: 400px;
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 5px;
+  }
+  .form-control::placeholder {
+    color: #888;
+  }
+  .btn-send {
+    background-color: #444;
+    color: cyan;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  .btn-send:hover {
+    background-color: #555;
+  }
+  .form-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
